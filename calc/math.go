@@ -1,9 +1,7 @@
 package calc
 
-// Add returns sum of two integer
+// Add returns sum of array elements of type integer
 func Add(numbers ...int) (sum int) {
-	sum := 0
-
 	for _, num := range numbers {
 		sum += num
 	}
