@@ -7,6 +7,6 @@ import (
  
  func main() {
  	arr := [5]int{1,2,3,4,5}
-  sum := calc.Add(arr[:]...)
+ 	sum := calc.Add(arr[:]...)
  	fmt.Println(sum)
  }
